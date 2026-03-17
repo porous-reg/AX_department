@@ -1,0 +1,78 @@
+import React, { useContext } from "react";
+import { LanguageContext } from "../App";
+
+const Footer: React.FC = () => {
+  const { lang } = useContext(LanguageContext);
+  return (
+    <footer className="bg-[#2b333c] text-white py-4 text-xs sm:text-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Top Section: Brand & Contact Info */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end border-b border-gray-700 pb-3 mb-2 gap-4">
+          {/* Brand & Description */}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center space-x-3 mb-3">
+              <img
+                src="https://images.seeklogo.com/logo-png/40/2/kaist-korea-advanced-institute-of-science-and-tech-logo-png_seeklogo-402926.png"
+                alt="KAIST Logo"
+                className="h-20 w-auto object-contain brightness-0 invert opacity-90"
+              />
+              <div className="flex flex-col">
+                <span className="text-xl font-black tracking-tight leading-none">
+                  AX
+                </span>
+                <span className="text-slate-400 text-[9px] font-medium uppercase tracking-widest mt-1">
+                  AX 학과
+                </span>
+              </div>
+            </div>
+            <p className="text-slate-500 text-sm max-w-xl leading-relaxed whitespace-normal">
+              {lang === "en" ? (
+                <>
+                  Cultivating talent who will lead the national AI transition
+                  <br />
+                  through integrated education and research.
+                </>
+              ) : (
+                "통합 교육 및 연구를 통해 국가 AI 전환을 선도할 인재를 육성합니다."
+              )}
+            </p>
+          </div>
+
+          {/* Contact Info */}
+          <div className="md:text-right flex-shrink-0 mt-4 md:mt-0">
+            <div className="text-slate-500 text-sm space-y-1">
+              {lang === "en" ? (
+                <>
+                  <p className="font-bold text-gray-300 mb-1 text-xs tracking-widest uppercase">
+                    KAIST (Korea Advanced Institute of Science & Technology)
+                  </p>
+                  <p>
+                    291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea
+                  </p>
+                  <p className="font-medium text-gray-300">
+                    T. +82 42-350-2114
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="font-bold text-gray-300 mb-1 text-xs tracking-widest uppercase">
+                    한국과학기술원(KAIST)
+                  </p>
+                  <p>대전광역시 유성구 대학로 291 (34141)</p>
+                  <p className="font-medium text-gray-300">T. 042-350-2114</p>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className="text-[9px] text-slate-400 flex flex-col md:flex-row justify-between items-center uppercase tracking-widest pt-1">
+          <p>COPYRIGHT(C) 2026 KAIST AX. ALL RIGHTS RESERVED.</p>
+
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
