@@ -456,6 +456,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "김동혁",
         img: "/images/faculty/adjunct/익명.jpg",
       },
+      {
+        ko: "조병관",
+        en: "조병관",
+        img: "/images/faculty/adjunct/조병관.png",
+        website: "http://cholab.or.kr/",
+      },
     ],
   },
   {
@@ -477,14 +483,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
       ko: "생명과학과",
       en: "Biological Sciences",
     },
-    members: [
-      {
-        ko: "조병관",
-        en: "조병관",
-        img: "/images/faculty/adjunct/조병관.png",
-        website: "http://cholab.or.kr/",
-      },
-    ],
+    members: [],
   },
 ];
 
