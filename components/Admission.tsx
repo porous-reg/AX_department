@@ -184,7 +184,7 @@ const Admission: React.FC<AdmissionProps> = ({ type, t, lang }) => {
             </div>
 
             {/* Schedule 1 */}
-            <div className="bg-slate-50 rounded-[2.5rem] p-6 sm:p-10 border border-slate-200 shadow-md">
+            <div className="bg-[#0a0a0a] glass-card rounded-[2.5rem] p-6 sm:p-10 border border-slate-800 shadow-md">
               <h3 className="text-2xl font-black text-slate-100 tracking-tight flex items-center gap-4 mb-12">
                 <Calendar className="w-8 h-8 text-[#004191]" />
                 {t.gradSchedule1Title}
@@ -192,31 +192,31 @@ const Admission: React.FC<AdmissionProps> = ({ type, t, lang }) => {
               <div className="overflow-x-auto">
                 <table className="min-w-full">
                   <thead>
-                    <tr className="border-b-2 border-slate-200">
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                    <tr className="border-b-2 border-slate-800/60">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "구분" : "Category"}
                       </th>
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "지원일정" : "Timeline"}
                       </th>
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "접수방법" : "Method"}
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-100">
+                  <tbody className="divide-y divide-slate-800/60">
                     {t.gradSchedule1Items.map((item: any, idx: number) => (
                       <tr
                         key={idx}
-                        className="hover:bg-[#0a0a0a] glass-card transition-colors"
+                        className="hover:bg-slate-900/60 transition-colors"
                       >
-                        <td className="px-6 py-8 text-sm font-black text-slate-100 uppercase">
+                        <td className="px-6 py-8 text-sm font-black text-slate-200 uppercase">
                           {item.category}
                         </td>
-                        <td className="px-6 py-8 text-lg font-bold text-[#004191] whitespace-pre-line">
+                        <td className="px-6 py-8 text-lg font-bold text-blue-300 whitespace-pre-line">
                           {item.timeline}
                         </td>
-                        <td className="px-6 py-8 text-sm text-slate-500 font-semibold whitespace-pre-line">
+                        <td className="px-6 py-8 text-sm text-slate-300 font-semibold whitespace-pre-line">
                           {item.method}
                         </td>
                       </tr>
@@ -227,7 +227,7 @@ const Admission: React.FC<AdmissionProps> = ({ type, t, lang }) => {
             </div>
 
             {/* Schedule 2 */}
-            <div className="bg-slate-50 rounded-[2.5rem] p-6 sm:p-10 border border-slate-200 shadow-md">
+            <div className="bg-[#0a0a0a] glass-card rounded-[2.5rem] p-6 sm:p-10 border border-slate-800 shadow-md">
               <h3 className="text-2xl font-black text-slate-100 tracking-tight flex items-center gap-4 mb-12 whitespace-pre-line">
                 <Calendar className="w-8 h-8 text-[#004191]" />
                 {t.gradSchedule2Title}
@@ -235,31 +235,31 @@ const Admission: React.FC<AdmissionProps> = ({ type, t, lang }) => {
               <div className="overflow-x-auto">
                 <table className="min-w-full">
                   <thead>
-                    <tr className="border-b-2 border-slate-200">
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                    <tr className="border-b-2 border-slate-800/60">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "구분" : "Category"}
                       </th>
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "지원일정" : "Timeline"}
                       </th>
-                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-100 uppercase tracking-widest">
+                      <th className="px-6 py-6 text-left text-[14px] font-black text-slate-400 uppercase tracking-widest">
                         {lang === "ko" ? "접수방법" : "Method"}
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-100">
+                  <tbody className="divide-y divide-slate-800/60">
                     {t.gradSchedule2Items.map((item: any, idx: number) => (
                       <tr
                         key={idx}
-                        className="hover:bg-[#0a0a0a] glass-card transition-colors"
+                        className="hover:bg-slate-900/60 transition-colors"
                       >
-                        <td className="px-6 py-8 text-sm font-black text-slate-100 uppercase">
+                        <td className="px-6 py-8 text-sm font-black text-slate-200 uppercase">
                           {item.category}
                         </td>
-                        <td className="px-6 py-8 text-lg font-bold text-[#004191] whitespace-pre-line">
+                        <td className="px-6 py-8 text-lg font-bold text-blue-300 whitespace-pre-line">
                           {item.timeline}
                         </td>
-                        <td className="px-6 py-8 text-sm text-slate-500 font-semibold whitespace-pre-line">
+                        <td className="px-6 py-8 text-sm text-slate-300 font-semibold whitespace-pre-line">
                           {item.method}
                         </td>
                       </tr>
