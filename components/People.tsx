@@ -5,7 +5,7 @@ interface FacultyMember {
   ko: string;
   en: string;
   img: string;
-  website: string;
+  website?: string;
   isChair?: boolean;
 }
 
@@ -266,13 +266,24 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "경영공학", en: "Management Engineering" },
+    title: { ko: "경영", en: "Business" },
     members: [
       {
         ko: "이철호",
         en: "이철호",
         img: "/images/faculty/adjunct/이철호.jpg",
         website: "http://sites.google.com/view/irontigerlee-kaist",
+      },
+      {
+        ko: "김형철",
+        en: "김형철",
+        img: "/images/faculty/adjunct/김형철.png",
+      },
+      {
+        ko: "정승원",
+        en: "정승원",
+        img: "/images/faculty/adjunct/정승원.jpg",
+        website: "https://www.eugenejeong.com/",
       },
     ],
   },
@@ -357,40 +368,115 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/김현욱.jpg",
         website: "https://sbml.kaist.ac.kr/",
       },
+      {
+        ko: "이상엽",
+        en: "이상엽",
+        img: "/images/faculty/adjunct/이상엽.jpg",
+        website: "http://mbel.kaist.ac.kr/",
+      },
+      {
+        ko: "김지한",
+        en: "김지한",
+        img: "/images/faculty/adjunct/김지한.jpg",
+        website: "http://molsim.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "디지털인문사회과학부",
+      en: "Digital Humanities and Social Sciences",
+    },
+    members: [
+      {
+        ko: "정두영",
+        en: "정두영",
+        img: "/images/faculty/adjunct/정두영.png",
+      },
+      {
+        ko: "우동현",
+        en: "우동현",
+        img: "/images/faculty/adjunct/우동현.jpg",
+        website: "https://sites.google.com/view/thenlab",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "물리",
+      en: "Physics",
+    },
+    members: [
+      {
+        ko: "안재욱",
+        en: "안재욱",
+        img: "/images/faculty/adjunct/안재욱.png",
+        website: "http://qcl.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "생물",
+      en: "Biological Sciences",
+    },
+    members: [
+      {
+        ko: "조병관",
+        en: "조병관",
+        img: "/images/faculty/adjunct/조병관.png",
+        website: "http://cholab.or.kr/",
+      },
     ],
   },
 ];
 
 const People: React.FC<{ lang: Language; title: string }> = ({ lang }) => {
-  const renderMemberCard = (member: FacultyMember, roleLabel: string) => (
-    <a
-      key={member.ko}
-      href={member.website}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group block"
-    >
-      <div className="aspect-[4/5] bg-slate-50 rounded-2xl mb-4 flex items-end justify-center overflow-hidden border border-slate-100 group-hover:border-[#004191] transition-all relative">
-        <img
-          src={member.img}
-          alt={member.en}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-        />
-        {member.isChair && (
-          <div className="absolute top-2 left-2 bg-blue-900/80 text-white text-[11px] font-medium px-2 py-1 rounded-full uppercase tracking-widest">
-            Chair
-          </div>
-        )}
-        <div className="absolute top-3 right-3 w-2 h-2 bg-[#004191] rounded-full scale-0 group-hover:scale-100 transition-transform"></div>
+  const renderMemberCard = (member: FacultyMember, roleLabel: string) => {
+    const cardContent = (
+      <>
+        <div className="aspect-[4/5] bg-slate-50 rounded-2xl mb-4 flex items-end justify-center overflow-hidden border border-slate-100 group-hover:border-[#004191] transition-all relative">
+          <img
+            src={member.img}
+            alt={member.en}
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+          {member.isChair && (
+            <div className="absolute top-2 left-2 bg-blue-900/80 text-white text-[11px] font-medium px-2 py-1 rounded-full uppercase tracking-widest">
+              Chair
+            </div>
+          )}
+          <div className="absolute top-3 right-3 w-2 h-2 bg-[#004191] rounded-full scale-0 group-hover:scale-100 transition-transform"></div>
+        </div>
+        <p className="font-bold text-slate-100 mb-1 min-h-[28px] text-lg">
+          {member.ko}
+        </p>
+        <p className="text-[10px] text-[#004191] font-black tracking-widest uppercase">
+          {roleLabel}
+        </p>
+      </>
+    );
+
+    if (member.website && member.website !== "#") {
+      return (
+        <a
+          key={member.ko}
+          href={member.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block"
+        >
+          {cardContent}
+        </a>
+      );
+    }
+
+    return (
+      <div key={member.ko} className="group block">
+        {cardContent}
       </div>
-      <p className="font-bold text-slate-100 mb-1 min-h-[28px] text-lg">
-        {member.ko}
-      </p>
-      <p className="text-[10px] text-[#004191] font-black tracking-widest uppercase">
-        {roleLabel}
-      </p>
-    </a>
-  );
+    );
+  };
 
   return (
     <section className="pt-16 pb-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 bg-[#0a0a0a] glass-card">
