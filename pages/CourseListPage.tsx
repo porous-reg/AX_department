@@ -152,9 +152,18 @@ const CourseListPage: React.FC = () => {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-           <p className="text-sm font-bold text-[#004191] bg-blue-50/10 px-6 py-4 rounded-xl border border-blue-900/20 shadow-sm inline-block">
-             {lang === "ko" ? " * 타 전공 트랙의 교과목이라 하더라도 AX학과 졸업이수 학점으로 인정됨." : " * Courses from other major tracks are also recognized as credits for graduation in the AX department."}
-           </p>
+          <div className="inline-flex flex-col gap-3">
+            <p className="text-sm font-bold text-[#004191] bg-blue-50/10 px-6 py-4 rounded-xl border border-blue-900/20 shadow-sm">
+              {lang === "ko"
+                ? " * 타 전공 트랙의 교과목이라 하더라도 AX학과 졸업이수 학점으로 인정됨."
+                : " * Courses from other major tracks are also recognized as credits for graduation in the AX department."}
+            </p>
+            <p className="text-sm font-bold text-amber-200 bg-amber-500/10 px-6 py-4 rounded-xl border border-amber-400/20 shadow-sm">
+              {lang === "ko"
+                ? " * 아래 교과목 리스트는 확정되지 않았으며 추후 수정될 수 있습니다."
+                : " * The course list below is not yet finalized and may be updated later."}
+            </p>
+          </div>
         </div>
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
           {tracks.map(renderTable)}

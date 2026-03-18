@@ -57,6 +57,11 @@ const Admission: React.FC<AdmissionProps> = ({ type, t, lang }) => {
               {type === "ug" ? t.ugDesc : t.gradDesc}
             </p>
           </div>
+          <p className="w-full max-w-5xl text-sm font-bold text-amber-200 bg-amber-500/10 px-6 py-4 rounded-xl border border-amber-400/20 shadow-sm text-left">
+            {lang === "ko"
+              ? " * 아래 입시 관련 내용은 확정되지 않았으며 추후 수정될 수 있습니다."
+              : " * The admissions information below is not yet finalized and may be updated later."}
+          </p>
           {type === "grad" && (
             <a
               href={
