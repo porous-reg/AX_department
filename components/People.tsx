@@ -478,13 +478,6 @@ const adjunctFacultyGroups: FacultyGroup[] = [
       },
     ],
   },
-  {
-    title: {
-      ko: "생명과학과",
-      en: "Biological Sciences",
-    },
-    members: [],
-  },
 ];
 
 const People: React.FC<{ lang: Language; title: string }> = ({ lang }) => {
