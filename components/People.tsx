@@ -276,8 +276,8 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "기술경영학부",
-      en: "Business and Technology Management",
+      ko: "경영대학",
+      en: "College of Business",
     },
     members: [
       {
