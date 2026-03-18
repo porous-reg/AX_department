@@ -272,6 +272,24 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/김진수.jpg",
         website: "http://sites.google.com/view/climatesystem/",
       },
+      {
+        ko: "정형조",
+        en: "Hyung-Jo Jung",
+        img: "/images/faculty/adjunct/정형조.jpg",
+        website: "http://scaislab.kaist.ac.kr/",
+      },
+      {
+        ko: "김영철",
+        en: "Youngchul Kim",
+        img: "/images/faculty/adjunct/김영철.jpg",
+        website: "http://urbandesignlab.kaist.ac.kr/",
+      },
+      {
+        ko: "부찬희",
+        en: "Chanhee Boo",
+        img: "/images/faculty/adjunct/부찬희.png",
+        website: "http://sites.google.com/view/aemlab",
+      },
     ],
   },
   {
