@@ -294,27 +294,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "경영대학",
-      en: "College of Business",
+      ko: "경영공학부 (서울)",
+      en: "Management Engineering (Seoul)",
     },
     members: [
-      {
-        ko: "이철호",
-        en: "Chul Ho Lee",
-        img: "/images/faculty/adjunct/이철호.jpg",
-        website: "http://sites.google.com/view/irontigerlee-kaist",
-      },
-      {
-        ko: "김형철",
-        en: "Hyungchul Kim",
-        img: "/images/faculty/adjunct/김형철.png",
-      },
-      {
-        ko: "정승원",
-        en: "Seungwon (Eugene) Jeong",
-        img: "/images/faculty/adjunct/정승원.jpg",
-        website: "https://www.eugenejeong.com/",
-      },
       {
         ko: "최현수",
         en: "Hyunsoo Choi",
@@ -356,6 +339,31 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Euncheol Shin",
         img: "/images/faculty/adjunct/신은철.png",
         website: "http://sites.google.com/site/euncheolshin00",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "기술경영학부 (대전)",
+      en: "Business and Technology Management (Daejeon)",
+    },
+    members: [
+      {
+        ko: "이철호",
+        en: "Chul Ho Lee",
+        img: "/images/faculty/adjunct/이철호.jpg",
+        website: "http://sites.google.com/view/irontigerlee-kaist",
+      },
+      {
+        ko: "김형철",
+        en: "Hyungchul Kim",
+        img: "/images/faculty/adjunct/김형철.png",
+      },
+      {
+        ko: "정승원",
+        en: "Seungwon (Eugene) Jeong",
+        img: "/images/faculty/adjunct/정승원.jpg",
+        website: "https://www.eugenejeong.com/",
       },
     ],
   },
