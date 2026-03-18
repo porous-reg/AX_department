@@ -151,6 +151,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/남영석.avif",
         website: "https://mel.kaist.ac.kr/",
       },
+      {
+        ko: "윤희택",
+        en: "윤희택",
+        img: "/images/faculty/adjunct/윤희택.jpg",
+        website: "https://smslab.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -291,6 +297,48 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/정승원.jpg",
         website: "https://www.eugenejeong.com/",
       },
+      {
+        ko: "최현수",
+        en: "최현수",
+        img: "/images/faculty/adjunct/최현수.png",
+        website: "http://sites.google.com/site/hschoi31/",
+      },
+      {
+        ko: "신승훈",
+        en: "신승훈",
+        img: "/images/faculty/adjunct/신승훈.png",
+        website: "https://seanshin.com/",
+      },
+      {
+        ko: "한진수",
+        en: "한진수",
+        img: "/images/faculty/adjunct/한진수.jpg",
+        website: "http://sites.google.com/view/jinsoohan",
+      },
+      {
+        ko: "김민기",
+        en: "김민기",
+        img: "/images/faculty/adjunct/김민기.jpg",
+        website: "https://sites.google.com/site/minkikimquant/",
+      },
+      {
+        ko: "김경국",
+        en: "김경국",
+        img: "/images/faculty/adjunct/김경국.png",
+        website: "https://sites.google.com/site/catenoid/",
+      },
+      {
+        ko: "신동혁",
+        en: "신동혁",
+        img: "/images/faculty/adjunct/신동혁.jpg",
+        website: "http://dshin32.github.io/",
+      },
+      {
+        ko: "신은철",
+        en: "신은철",
+        img: "/images/faculty/adjunct/신은철.png",
+        website: "http://sites.google.com/site/euncheolshin00",
+      },
     ],
   },
   {
@@ -399,20 +447,14 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "디지털인문사회과학부",
-      en: "Digital Humanities and Social Sciences",
+      ko: "공학생물학대학원",
+      en: "Graduate School of Engineering Biology",
     },
     members: [
       {
-        ko: "정두영",
-        en: "정두영",
-        img: "/images/faculty/adjunct/정두영.png",
-      },
-      {
-        ko: "우동현",
-        en: "우동현",
-        img: "/images/faculty/adjunct/우동현.jpg",
-        website: "https://sites.google.com/view/thenlab",
+        ko: "김동혁",
+        en: "김동혁",
+        img: "/images/faculty/adjunct/익명.jpg",
       },
     ],
   },
