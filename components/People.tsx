@@ -47,7 +47,7 @@ const coreFaculty: FacultyMember[] = [
 
 const adjunctFacultyGroups: FacultyGroup[] = [
   {
-    title: { ko: "기계", en: "Mechanical Engineering" },
+    title: { ko: "기계공학과", en: "Mechanical Engineering" },
     members: [
       {
         ko: "김산하",
@@ -154,7 +154,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "산업공학", en: "Industrial Engineering" },
+    title: { ko: "산업공학과", en: "Industrial Engineering" },
     members: [
       {
         ko: "김현정",
@@ -207,7 +207,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "건설환경", en: "Civil & Environmental" },
+    title: {
+      ko: "건설및환경공학과",
+      en: "Civil and Environmental Engineering",
+    },
     members: [
       {
         ko: "홍정욱",
@@ -266,7 +269,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "경영", en: "Business" },
+    title: {
+      ko: "기술경영학부",
+      en: "Business and Technology Management",
+    },
     members: [
       {
         ko: "이철호",
@@ -288,7 +294,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "모빌리티", en: "Mobility" },
+    title: {
+      ko: "조천식모빌리티대학원",
+      en: "Cho Chun Shik Graduate School of Mobility",
+    },
     members: [
       {
         ko: "공승현",
@@ -323,7 +332,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "신소재", en: "Materials Science" },
+    title: {
+      ko: "신소재공학과",
+      en: "Materials Science and Engineering",
+    },
     members: [
       {
         ko: "홍승범",
@@ -346,7 +358,10 @@ const adjunctFacultyGroups: FacultyGroup[] = [
     ],
   },
   {
-    title: { ko: "문화기술", en: "Culture Technology" },
+    title: {
+      ko: "문화기술대학원",
+      en: "Graduate School of Culture Technology",
+    },
     members: [
       {
         ko: "우운택",
@@ -403,7 +418,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "물리",
+      ko: "물리학과",
       en: "Physics",
     },
     members: [
@@ -417,7 +432,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "생물",
+      ko: "생명과학과",
       en: "Biological Sciences",
     },
     members: [
