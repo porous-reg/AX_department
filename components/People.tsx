@@ -157,6 +157,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/윤희택.jpg",
         website: "https://smslab.kaist.ac.kr/",
       },
+      {
+        ko: "김지태",
+        en: "Jitae Kim",
+        img: "/images/faculty/adjunct/김지태.jpg",
+        website: "https://sites.google.com/view/kimlabkaist",
+      },
     ],
   },
   {
@@ -340,6 +346,11 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/신은철.png",
         website: "http://sites.google.com/site/euncheolshin00",
       },
+      {
+        ko: "백용욱",
+        en: "Yongwook Baek",
+        img: "/images/faculty/adjunct/백용욱.jpg",
+      },
     ],
   },
   {
@@ -364,6 +375,25 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Seungwon (Eugene) Jeong",
         img: "/images/faculty/adjunct/정승원.jpg",
         website: "https://www.eugenejeong.com/",
+      },
+      {
+        ko: "김지희",
+        en: "Jihee Kim",
+        img: "/images/faculty/adjunct/김지희.png",
+        website: "http://www.jiheekim.net/",
+      },
+      {
+        ko: "김륜희",
+        en: "Ryunhee Kim",
+        img: "/images/faculty/adjunct/김륜희.jpg",
+        website:
+          "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1760398",
+      },
+      {
+        ko: "한승헌",
+        en: "Seungheon Han",
+        img: "/images/faculty/adjunct/한승헌.png",
+        website: "http://synosia.kaist.ac.kr/",
       },
     ],
   },
