@@ -163,6 +163,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/김지태.jpg",
         website: "https://sites.google.com/view/kimlabkaist",
       },
+      {
+        ko: "김산하",
+        en: "Sanha Kim",
+        img: "/images/faculty/adjunct/김산하.jpg",
+        website: "https://amselab.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -477,6 +483,31 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
+      ko: "디지털인문사회과학부",
+      en: "Graduate School of Digital Humanities and Computational Social Sciences",
+    },
+    members: [
+      {
+        ko: "정두영",
+        en: "Doo-Young Jung",
+        img: "/images/faculty/adjunct/정두영.png",
+      },
+      {
+        ko: "우동현",
+        en: "Donghyun Woo",
+        img: "/images/faculty/adjunct/우동현.jpg",
+        website: "https://sites.google.com/view/thenlab",
+      },
+      {
+        ko: "조성아",
+        en: "Seonga Cho",
+        img: "/images/faculty/adjunct/조성아.png",
+        website: "https://sites.google.com/view/seongacho/home",
+      },
+    ],
+  },
+  {
+    title: {
       ko: "생명화학공학과",
       en: "Chemical and Biomolecular Engineering",
     },
@@ -498,6 +529,26 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Jihan Kim",
         img: "/images/faculty/adjunct/김지한.jpg",
         website: "http://molsim.kaist.ac.kr/",
+      },
+      {
+        ko: "고동연",
+        en: "Dong-Yeun Koh",
+        img: "/images/faculty/adjunct/고동연.jpg",
+        website: "https://mmml.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "바이오및뇌공학과",
+      en: "Bio and Brain Engineering",
+    },
+    members: [
+      {
+        ko: "이영석",
+        en: "Young-suk Lee",
+        img: "/images/faculty/adjunct/이영석.jpg",
+        website: "https://young.kaist.ac.kr/",
       },
     ],
   },
