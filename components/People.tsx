@@ -163,12 +163,6 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/김지태.jpg",
         website: "https://sites.google.com/view/kimlabkaist",
       },
-      {
-        ko: "김산하",
-        en: "Sanha Kim",
-        img: "/images/faculty/adjunct/김산하.jpg",
-        website: "https://amselab.kaist.ac.kr/",
-      },
     ],
   },
   {
