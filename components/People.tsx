@@ -163,6 +163,30 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/김지태.jpg",
         website: "https://sites.google.com/view/kimlabkaist",
       },
+      {
+        ko: "김진환",
+        en: "Jinhwan Kim",
+        img: "/images/faculty/adjunct/김진환.png",
+        website: "https://morin.kaist.ac.kr/",
+      },
+      {
+        ko: "김대겸",
+        en: "Dae-Gyeom Kim",
+        img: "/images/faculty/adjunct/김대겸.jpg",
+        website: "https://fluid.kaist.ac.kr/",
+      },
+      {
+        ko: "박용화",
+        en: "Yonghwa Park",
+        img: "/images/faculty/adjunct/박용화.jpg",
+        website: "https://human.kaist.ac.kr/",
+      },
+      {
+        ko: "이강택",
+        en: "Kang-Taek Lee",
+        img: "/images/faculty/adjunct/이강택.jpg",
+        website: "https://www.ktlee.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -395,6 +419,62 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/한승헌.png",
         website: "http://synosia.kaist.ac.kr/",
       },
+      {
+        ko: "이수진",
+        en: "Sujin Lee",
+        img: "/images/faculty/adjunct/이수진.jpg",
+        website: "https://humaninnovation.kaist.ac.kr/",
+      },
+      {
+        ko: "정현주",
+        en: "Hyun Ju Jung",
+        img: "/images/faculty/adjunct/정현주.jpg",
+        website: "https://sites.google.com/view/hyun-ju-jung",
+      },
+      {
+        ko: "엄지용",
+        en: "Jiyong Eom",
+        img: "/images/faculty/adjunct/엄지용.jpg",
+        website: "https://kaistceps.quv.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "녹색성장지속가능대학원",
+      en: "Graduate School of Green Growth and Sustainability",
+    },
+    members: [
+      {
+        ko: "윤보학",
+        en: "Bohak Yoon",
+        img: "/images/faculty/adjunct/윤보학.jpg",
+        website: "https://yoongroup.github.io/",
+      },
+      {
+        ko: "최하연",
+        en: "Hayon Michelle Choi",
+        img: "/images/faculty/adjunct/최하연.jpg",
+        website: "https://sites.google.com/view/hchoi-lab",
+      },
+      {
+        ko: "김지효",
+        en: "Jihyo Kim",
+        img: "/images/faculty/adjunct/김지효.jpg",
+        website: "https://etp.kaist.ac.kr/",
+      },
+      {
+        ko: "믹전해원",
+        en: "Haewon C. McJeon",
+        img: "/images/faculty/adjunct/믹전해원.webp",
+        website: "https://kaist-iam.github.io/group/hmcjeon.html",
+      },
+      {
+        ko: "최경록",
+        en: "Kyoung Rok Choi",
+        img: "/images/faculty/adjunct/최경록.jpg",
+        website: "https://bigcats.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -473,6 +553,56 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/우운택.jpg",
         website: "http://uvrlab.org/",
       },
+      {
+        ko: "윤상호",
+        en: "Sangho Yoon",
+        img: "/images/faculty/adjunct/윤상호.jpg",
+        website: "https://hcitech.org/",
+      },
+      {
+        ko: "이진준",
+        en: "Jinjoon Lee",
+        img: "/images/faculty/adjunct/이진준.jpg",
+        website: "https://tx.kaist.ac.kr/",
+      },
+      {
+        ko: "노준용",
+        en: "Junyong Noh",
+        img: "/images/faculty/adjunct/노준용.png",
+        website: "https://vml.kaist.ac.kr/home",
+      },
+      {
+        ko: "이성희",
+        en: "Sung-Hee Lee",
+        img: "/images/faculty/adjunct/이성희.png",
+        website: "https://lava.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "산업디자인학과",
+      en: "Industrial Design",
+    },
+    members: [
+      {
+        ko: "이탁연",
+        en: "Takyeon Lee",
+        img: "/images/faculty/adjunct/이탁연.jpg",
+        website: "https://ai-experience-lab.github.io/",
+      },
+      {
+        ko: "Andrea Bianchi",
+        en: "Andrea Bianchi",
+        img: "/images/faculty/adjunct/Andrea-Bianchi.jpg",
+        website: "https://make.kaist.ac.kr/",
+      },
+      {
+        ko: "남택진",
+        en: "Tek-Jin Nam",
+        img: "/images/faculty/adjunct/남택진.png",
+        website: "https://cidr.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -544,6 +674,18 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/이영석.jpg",
         website: "https://young.kaist.ac.kr/",
       },
+      {
+        ko: "이관수",
+        en: "Kwansoo Lee",
+        img: "/images/faculty/adjunct/이관수.jpg",
+        website: "https://synbi.kaist.ac.kr/",
+      },
+      {
+        ko: "강형률",
+        en: "Yul Kang",
+        img: "/images/faculty/adjunct/강형률.png",
+        website: "https://yulkanglab.org/",
+      },
     ],
   },
   {
@@ -563,6 +705,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/조병관.png",
         website: "http://cholab.or.kr/",
       },
+      {
+        ko: "이선재",
+        en: "Sun Jae Lee",
+        img: "/images/faculty/adjunct/이선재.jpg",
+        website: "https://sites.google.com/view/kaist-life-mining-lab/home",
+      },
     ],
   },
   {
@@ -576,6 +724,44 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Jaewook Ahn",
         img: "/images/faculty/adjunct/안재욱.png",
         website: "http://qcl.kaist.ac.kr/",
+      },
+      {
+        ko: "한명준",
+        en: "Myung-Joon Han",
+        img: "/images/faculty/adjunct/한명준.png",
+        website: "https://sites.google.com/site/myungjoonhan/",
+      },
+      {
+        ko: "김동규",
+        en: "Dong Kyu Kim",
+        img: "/images/faculty/adjunct/김동규.png",
+        website: "https://oqt.kaist.ac.kr/",
+      },
+      {
+        ko: "박용근",
+        en: "YongKeun Park",
+        img: "/images/faculty/adjunct/박용근.webp",
+        website: "https://bmokaist.wordpress.com/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "수리과학과",
+      en: "Mathematical Sciences",
+    },
+    members: [
+      {
+        ko: "백형렬",
+        en: "Harry Hyungryul Baik",
+        img: "/images/faculty/adjunct/백형렬.png",
+        website: "https://sites.google.com/site/hrbaik85/",
+      },
+      {
+        ko: "김재경",
+        en: "Jae Kyoung Kim",
+        img: "/images/faculty/adjunct/김재경.jpg",
+        website: "https://mathsci.kaist.ac.kr/~jaekkim/",
       },
     ],
   },
