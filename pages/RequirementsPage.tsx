@@ -76,7 +76,7 @@ const RequirementsPage: React.FC = () => {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <p className="text-sm font-bold text-amber-200 bg-amber-500/10 px-6 py-4 rounded-xl border border-amber-400/20 shadow-sm">
+          <p className="text-sm font-bold text-blue-100 bg-blue-950/40 px-6 py-4 rounded-xl border border-blue-400/30 shadow-sm">
             {lang === "ko"
               ? " * 아래 이수요건은 확정되지 않았으며 추후 수정될 수 있습니다."
               : " * The graduation requirements below are not yet finalized and may be updated later."}
