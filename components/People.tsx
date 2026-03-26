@@ -581,6 +581,20 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
+      ko: "문술미래전략대학원",
+      en: "Moon Soul Graduate School of Future Strategy",
+    },
+    members: [
+      {
+        ko: "김형준",
+        en: "Hyung Jun Kim",
+        img: "/images/faculty/adjunct/김형준.jpg",
+        website: "https://melab.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
       ko: "산업디자인학과",
       en: "Industrial Design",
     },
@@ -602,6 +616,58 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Tek-Jin Nam",
         img: "/images/faculty/adjunct/남택진.png",
         website: "https://cidr.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "전기및전자공학부",
+      en: "Electrical Engineering",
+    },
+    members: [
+      {
+        ko: "김용대",
+        en: "Yongdae Kim",
+        img: "/images/faculty/adjunct/김용대.jpg",
+        website: "http://syssec.kaist.ac.kr/~yongdaek",
+      },
+      {
+        ko: "원유집",
+        en: "Youjip Won",
+        img: "/images/faculty/adjunct/원유집.png",
+        website: "https://oslab.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "전산학부",
+      en: "School of Computing",
+    },
+    members: [
+      {
+        ko: "김현우",
+        en: "Hyunwoo Kim",
+        img: "/images/faculty/adjunct/김현우.jpg",
+        website: "http://hyunwoojkim.com/",
+      },
+      {
+        ko: "조성호",
+        en: "Sungho Jo",
+        img: "/images/faculty/adjunct/조성호.jpg",
+        website: "http://nmail.kaist.ac.kr/",
+      },
+      {
+        ko: "오태현",
+        en: "Taehyun Oh",
+        img: "/images/faculty/adjunct/오태현.jpg",
+        website: "https://ami.kaist.ac.kr/",
+      },
+      {
+        ko: "한준",
+        en: "Jun Han",
+        img: "/images/faculty/adjunct/한준.jpg",
+        website: "https://www.junhan.org/",
       },
     ],
   },
