@@ -595,6 +595,20 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
+      ko: "융합인재학부",
+      en: "School of Transdisciplinary Studies",
+    },
+    members: [
+      {
+        ko: "가현욱",
+        en: "Hyun Wook Ka",
+        img: "/images/faculty/adjunct/가현욱.jpg",
+        website: "http://aailab.kaist.ac.kr/",
+      },
+    ],
+  },
+  {
+    title: {
       ko: "산업디자인학과",
       en: "Industrial Design",
     },
