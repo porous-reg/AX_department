@@ -17,6 +17,8 @@ interface FacultyGroup {
   members: FacultyMember[];
 }
 
+const koreanNameCollator = new Intl.Collator("ko");
+
 const coreFaculty: FacultyMember[] = [
   {
     ko: "유승화",
@@ -848,6 +850,13 @@ const adjunctFacultyGroups: FacultyGroup[] = [
 ];
 
 const People: React.FC<{ lang: Language; title: string }> = ({ lang }) => {
+  const sortedAdjunctFacultyGroups = adjunctFacultyGroups.map((group) => ({
+    ...group,
+    members: [...group.members].sort((a, b) =>
+      koreanNameCollator.compare(a.ko, b.ko)
+    ),
+  }));
+
   const renderMemberCard = (member: FacultyMember, roleLabel: string) => {
     const cardContent = (
       <>
@@ -927,7 +936,7 @@ const People: React.FC<{ lang: Language; title: string }> = ({ lang }) => {
           </div>
 
           <div className="space-y-8">
-            {adjunctFacultyGroups.map((group) => (
+            {sortedAdjunctFacultyGroups.map((group) => (
               <div
                 key={group.title.ko}
                 className="rounded-[2rem] border border-slate-800 bg-slate-950/70 p-6 sm:p-8"
