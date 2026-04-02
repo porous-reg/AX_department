@@ -189,6 +189,30 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/이강택.jpg",
         website: "https://www.ktlee.kaist.ac.kr/",
       },
+      {
+        ko: "김미소",
+        en: "Miso Kim",
+        img: "/images/faculty/adjunct/김미소.jpg",
+        website: "https://sites.google.com/view/misokimgroup/",
+      },
+      {
+        ko: "오왕열",
+        en: "Wang Yeul Oh",
+        img: "/images/faculty/adjunct/오왕열.jpg",
+        website: "https://phil.kaist.ac.kr/",
+      },
+      {
+        ko: "오현동",
+        en: "Hyundong Oh",
+        img: "/images/faculty/adjunct/오현동.jpg",
+        website: "https://fair.kaist.ac.kr/",
+      },
+      {
+        ko: "윤정환",
+        en: "Junghwan Yoon",
+        img: "/images/faculty/adjunct/윤정환.png",
+        website: "https://canesm.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -377,6 +401,11 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Yongwook Baek",
         img: "/images/faculty/adjunct/백용욱.jpg",
       },
+      {
+        ko: "정학진",
+        en: "Hakjin Jung",
+        img: "/images/faculty/adjunct/정학진.jpg",
+      },
     ],
   },
   {
@@ -438,6 +467,16 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Jiyong Eom",
         img: "/images/faculty/adjunct/엄지용.jpg",
         website: "https://kaistceps.quv.kr/",
+      },
+      {
+        ko: "권석범",
+        en: "Seok Bum Kwon",
+        img: "/images/faculty/adjunct/권석범.png",
+      },
+      {
+        ko: "최호용",
+        en: "Hoyong Choi",
+        img: "/images/faculty/adjunct/최호용.jpg",
       },
     ],
   },
@@ -579,6 +618,35 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/이성희.png",
         website: "https://lava.kaist.ac.kr/",
       },
+      {
+        ko: "김성영",
+        en: "Sungyoung Kim",
+        img: "/images/faculty/adjunct/김성영.png",
+        website: "https://airislab.kaist.ac.kr/",
+      },
+      {
+        ko: "박주용",
+        en: "Jooyong Park",
+        img: "/images/faculty/adjunct/박주용.jpg",
+      },
+      {
+        ko: "이원재",
+        en: "Wonjae Lee",
+        img: "/images/faculty/adjunct/이원재.jpg",
+        website: "https://sociology.kaist.ac.kr/",
+      },
+      {
+        ko: "임경태",
+        en: "Kyungtae Lim",
+        img: "/images/faculty/adjunct/임경태.jpg",
+        website: "https://sites.google.com/view/aailab",
+      },
+      {
+        ko: "차승현",
+        en: "Seunghyun Cha",
+        img: "/images/faculty/adjunct/차승현.jpg",
+        website: "https://fsl.kaist.ac.kr/",
+      },
     ],
   },
   {
@@ -592,20 +660,6 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Hyung Jun Kim",
         img: "/images/faculty/adjunct/김형준.jpg",
         website: "https://melab.kaist.ac.kr/",
-      },
-    ],
-  },
-  {
-    title: {
-      ko: "융합인재학부",
-      en: "School of Transdisciplinary Studies",
-    },
-    members: [
-      {
-        ko: "가현욱",
-        en: "Hyun Wook Ka",
-        img: "/images/faculty/adjunct/가현욱.jpg",
-        website: "http://aailab.kaist.ac.kr/",
       },
     ],
   },
@@ -632,6 +686,17 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Tek-Jin Nam",
         img: "/images/faculty/adjunct/남택진.png",
         website: "https://cidr.kaist.ac.kr/",
+      },
+      {
+        ko: "강이룬",
+        en: "Ireun Kang",
+        img: "/images/faculty/adjunct/강이룬.png",
+        website: "https://visual-instruments.kaist.ac.kr/",
+      },
+      {
+        ko: "홍화정",
+        en: "Hwajung Hong",
+        img: "/images/faculty/adjunct/홍화정.jpg",
       },
     ],
   },
@@ -714,6 +779,110 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
+      ko: "생명과학과",
+      en: "Biological Sciences",
+    },
+    members: [
+      {
+        ko: "김호민",
+        en: "Homin Kim",
+        img: "/images/faculty/adjunct/김호민.jpg",
+        website: "https://kaistlipds.creatorlink.net/Home",
+      },
+      {
+        ko: "남윤성",
+        en: "Yoonseong Nam",
+        img: "/images/faculty/adjunct/남윤성.jpg",
+        website: "http://ysnamgroup.com/",
+      },
+      {
+        ko: "배준환",
+        en: "Junhwan Bae",
+        img: "/images/faculty/adjunct/배준환.jpg",
+        website: "https://jalexbaelab.com/",
+      },
+      {
+        ko: "손종우",
+        en: "Jong-Woo Sohn",
+        img: "/images/faculty/adjunct/손종우.jpg",
+        website: "https://sites.google.com/site/sohnlab2014/",
+      },
+      {
+        ko: "송지준",
+        en: "Jijun Song",
+        img: "/images/faculty/adjunct/송지준.png",
+        website: "https://www.song-kaist.org/",
+      },
+      {
+        ko: "윤기준",
+        en: "Kijun Yoon",
+        img: "/images/faculty/adjunct/윤기준.png",
+        website: "https://www.yoonlab.info/",
+      },
+      {
+        ko: "이광록",
+        en: "Kwang Rok Lee",
+        img: "/images/faculty/adjunct/이광록.png",
+        website: "https://sites.google.com/view/pemit/home",
+      },
+      {
+        ko: "이규리",
+        en: "Gyuri Lee",
+        img: "/images/faculty/adjunct/이규리.png",
+        website: "https://sites.google.com/view/aipdlab",
+      },
+      {
+        ko: "이승재",
+        en: "Seungjae Lee",
+        img: "/images/faculty/adjunct/이승재.png",
+        website: "https://sites.google.com/view/mgakaist",
+      },
+      {
+        ko: "이승희",
+        en: "Seunghee Lee",
+        img: "/images/faculty/adjunct/이승희.jpg",
+        website: "https://sites.google.com/site/leelab2013/",
+      },
+      {
+        ko: "이흥규",
+        en: "Heungkyu Lee",
+        img: "/images/faculty/adjunct/이흥규.avif",
+        website: "https://www.heungkyulee.kaist.ac.kr/",
+      },
+      {
+        ko: "임정훈",
+        en: "Jeonghoon Lim",
+        img: "/images/faculty/adjunct/임정훈.png",
+        website: "https://sites.google.com/view/thelimlab/",
+      },
+      {
+        ko: "정인경",
+        en: "In Kyung Jung",
+        img: "/images/faculty/adjunct/정인경.jpg",
+        website: "https://sites.google.com/view/junglab-kaist/main",
+      },
+      {
+        ko: "한진희",
+        en: "Jinhee Han",
+        img: "/images/faculty/adjunct/한진희.jpg",
+        website: "https://sites.google.com/view/kaistmbl",
+      },
+      {
+        ko: "허원도",
+        en: "Won Do Heo",
+        img: "/images/faculty/adjunct/허원도.jpg",
+        website: "https://sites.google.com/view/heolab/home",
+      },
+      {
+        ko: "홍인기",
+        en: "Ingie Hong",
+        img: "/images/faculty/adjunct/홍인기.png",
+        website: "https://ingiehonglab.org/",
+      },
+    ],
+  },
+  {
+    title: {
       ko: "생명화학공학과",
       en: "Chemical and Biomolecular Engineering",
     },
@@ -768,6 +937,18 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         img: "/images/faculty/adjunct/강형률.png",
         website: "https://yulkanglab.org/",
       },
+      {
+        ko: "박성홍",
+        en: "Sunghong Park",
+        img: "/images/faculty/adjunct/박성홍.jpg",
+        website: "https://mri.kaist.ac.kr/",
+      },
+      {
+        ko: "하경호",
+        en: "Kyoungho Ha",
+        img: "/images/faculty/adjunct/하경호.png",
+        website: "https://sites.google.com/view/haresearchgroup",
+      },
     ],
   },
   {
@@ -779,7 +960,8 @@ const adjunctFacultyGroups: FacultyGroup[] = [
       {
         ko: "김동혁",
         en: "Donghyuk Kim",
-        img: "/images/faculty/adjunct/익명.jpg",
+        img: "/images/faculty/adjunct/김동혁.jpg",
+        website: "https://sbml-lab.ai/",
       },
       {
         ko: "조병관",
@@ -792,6 +974,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Sun Jae Lee",
         img: "/images/faculty/adjunct/이선재.jpg",
         website: "https://sites.google.com/view/kaist-life-mining-lab/home",
+      },
+      {
+        ko: "임성순",
+        en: "Sungsoon Yim",
+        img: "/images/faculty/adjunct/임성순.jpg",
+        website: "https://yimlabkaist.github.io/",
       },
     ],
   },
@@ -844,6 +1032,20 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Jae Kyoung Kim",
         img: "/images/faculty/adjunct/김재경.jpg",
         website: "https://mathsci.kaist.ac.kr/~jaekkim/",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "화학과",
+      en: "Chemistry",
+    },
+    members: [
+      {
+        ko: "김우연",
+        en: "Wooyoun Kim",
+        img: "/images/faculty/adjunct/김우연.jpg",
+        website: "https://wooyoun.kaist.ac.kr/",
       },
     ],
   },
