@@ -583,8 +583,8 @@ const adjunctFacultyGroups: FacultyGroup[] = [
   },
   {
     title: {
-      ko: "문술미래전략대학원",
-      en: "Moon Soul Graduate School of Future Strategy",
+      ko: "AI미래학과",
+      en: "Department of AI Future",
     },
     members: [
       {
