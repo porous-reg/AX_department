@@ -45,6 +45,12 @@ const coreFaculty: FacultyMember[] = [
     img: "/images/faculty/full_time/이익진.jpg",
     website: "http://idol.kaist.ac.kr/",
   },
+  {
+    ko: "송지준",
+    en: "Ji-Joon Song",
+    img: "/images/faculty/full_time/송지준.png",
+    website: "https://www.song-kaist.org/",
+  },
 ];
 
 const adjunctFacultyGroups: FacultyGroup[] = [
@@ -212,6 +218,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Junghwan Yoon",
         img: "/images/faculty/adjunct/윤정환.png",
         website: "https://canesm.kaist.ac.kr/",
+      },
+      {
+        ko: "노민균",
+        en: "Minkyun Noh",
+        img: "/images/faculty/adjunct/노민균.jpg",
+        website: "https://pml.kaist.ac.kr/",
       },
     ],
   },
@@ -808,12 +820,6 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         website: "https://sites.google.com/site/sohnlab2014/",
       },
       {
-        ko: "송지준",
-        en: "Jijun Song",
-        img: "/images/faculty/adjunct/송지준.png",
-        website: "https://www.song-kaist.org/",
-      },
-      {
         ko: "윤기준",
         en: "Kijun Yoon",
         img: "/images/faculty/adjunct/윤기준.png",
@@ -948,6 +954,20 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Kyoungho Ha",
         img: "/images/faculty/adjunct/하경호.png",
         website: "https://sites.google.com/view/haresearchgroup",
+      },
+    ],
+  },
+  {
+    title: {
+      ko: "뇌인지과학과",
+      en: "Brain and Cognitive Sciences",
+    },
+    members: [
+      {
+        ko: "이병욱",
+        en: "Byeongwook Lee",
+        img: "/images/faculty/adjunct/이병욱.jpg",
+        website: "https://cnnl.kaist.ac.kr/",
       },
     ],
   },
