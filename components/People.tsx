@@ -802,6 +802,12 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         website: "https://kaistlipds.creatorlink.net/Home",
       },
       {
+        ko: "김재경",
+        en: "JaeKyung Kim",
+        img: "/images/faculty/adjunct/김재경-생명.jpg",
+        website: "https://sites.google.com/view/jk-lab/home?authuser=0",
+      },
+      {
         ko: "남윤성",
         en: "Yoonseong Nam",
         img: "/images/faculty/adjunct/남윤성.jpg",
