@@ -7,6 +7,7 @@ interface FacultyMember {
   img: string;
   website?: string;
   isChair?: boolean;
+  imageClassName?: string;
 }
 
 interface FacultyGroup {
@@ -806,6 +807,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "JaeKyung Kim",
         img: "/images/faculty/adjunct/김재경-생명.jpg",
         website: "https://sites.google.com/view/jk-lab/home?authuser=0",
+        imageClassName: "object-top",
       },
       {
         ko: "남윤성",
@@ -1052,6 +1054,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
         en: "Harry Hyungryul Baik",
         img: "/images/faculty/adjunct/백형렬.png",
         website: "https://sites.google.com/site/hrbaik85/",
+        imageClassName: "object-top",
       },
       {
         ko: "김재경",
@@ -1092,7 +1095,9 @@ const People: React.FC<{ lang: Language; title: string }> = ({ lang }) => {
           <img
             src={member.img}
             alt={member.en}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className={`w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 ${
+              member.imageClassName ?? ""
+            }`}
           />
           {member.isChair && (
             <div className="absolute top-2 left-2 bg-blue-900/80 text-white text-[11px] font-medium px-2 py-1 rounded-full uppercase tracking-widest">
