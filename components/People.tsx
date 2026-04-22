@@ -240,7 +240,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
       {
         ko: "김희영",
         en: "Heeyoung Kim",
-        img: "/images/faculty/adjunct/김희영.png",
+        img: "/images/faculty/adjunct/김희영.jpg",
         website: "https://istat.kaist.ac.kr/",
       },
       {
