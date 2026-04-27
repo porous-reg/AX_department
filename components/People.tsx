@@ -525,7 +525,7 @@ const adjunctFacultyGroups: FacultyGroup[] = [
       },
       {
         ko: "최경록",
-        en: "Kyoung Rok Choi",
+        en: "Kyeong Rok Choi",
         img: "/images/faculty/adjunct/최경록.jpg",
         website: "https://bigcats.kaist.ac.kr/",
       },
